@@ -1,0 +1,7 @@
+{
+    "restartable": "rs",
+    "ignore": [".git", "node_modules/**/node_modules", "src/**/*.spec.ts", "src/graphql.schema.ts"],
+	"exec": "ts-node -r tsconfig-paths/register src/main.ts",
+	"watch": ["src"],
+    "ext": "js,json,ts"
+  }
