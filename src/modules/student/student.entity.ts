@@ -1,9 +1,9 @@
 
 export class Student {
 
-    public id: number;
+	public id: number;
 
-    public name: string;
+	public name: string;
 
-    public age: number;
+	public age: number;
 }

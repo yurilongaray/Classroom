@@ -5,21 +5,21 @@ import { Student } from './student.entity';
 @Controller('v1/students')
 export class StudentController {
 
-    @Get()
-    public getAll(): Student[] {
+	@Get()
+	public getAll(): Student[] {
 
-        return students;
-    }
+		return students;
+	}
 
-    @Get(':id')
-    public getOne(@Param('id', ParseIntPipe) id: number) {
+	@Get(':id')
+	public getOne(@Param('id', ParseIntPipe) id: number) {
 
-        return students.find(student => student.id === id);
-    }
+		return students.find(student => student.id === id);
+	}
 
-    @Post()
-    public create(@Body() student: Student) {
+	@Post()
+	public create(@Body() student: Student) {
 
-        return student;
-    }
+		return student;
+	}
 }

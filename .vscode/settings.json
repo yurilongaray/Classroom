@@ -1,0 +1,27 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"editor.insertSpaces": false,
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/dist": true
+	},
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true,
+		"dist/**": true
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/node_modules/**": true
+	},
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+	"typescript.preferences.quoteStyle": "single",
+	"git.inputValidationSubjectLength": 72,
+	"tslint.alwaysShowRuleFailuresAsWarnings": false
+}
